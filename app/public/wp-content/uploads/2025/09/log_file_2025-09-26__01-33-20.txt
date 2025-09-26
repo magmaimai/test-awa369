@@ -1,0 +1,73 @@
+
+---Downloaded files---
+The import files for: Nonprofit Demo were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://test-awa369.local
+Data file = /Users/kishishinkinuko/Local Sites/test-awa369/app/public/wp-content/uploads/2025/09/demo-content-import-file_2025-09-26__01-33-20.xml
+Widget file = /Users/kishishinkinuko/Local Sites/test-awa369/app/public/wp-content/uploads/2025/09/demo-widgets-import-file_2025-09-26__01-33-20.json
+Customizer file = /Users/kishishinkinuko/Local Sites/test-awa369/app/public/wp-content/uploads/2025/09/demo-customizer-import-file_2025-09-26__01-33-20.dat
+Redux files:
+vslmd_options -> /Users/kishishinkinuko/Local Sites/test-awa369/app/public/wp-content/uploads/2025/09/demo-redux-import-file_0-2025-09-26__01-33-20.json 
+
+
+---Importing widgets---
+Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+First Footer : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Second Footer : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Third Footer : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Copyright Footer : 
+
+Visualmodo - Menu - No Title - Widget already exists
+
+Top Header Left : 
+
+Block - No Title - Widget already exists
+
+Top Header Right : 
+
+Block - No Title - Widget already exists
+
+WooCommerce : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Products list - SHOP PRODUCTS - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: vslmd_options finished successfully!
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---ocdi/after_import---
+
