@@ -11,9 +11,9 @@ echo '<!-- HEADER DEBUG: header_layout='.$header_layout.' layout_header_title='.
 // ---------------------------
 // 安全対策：未定義変数の初期化（警告回避）
 // ---------------------------
-$header_layout = isset($header_layout) ? $header_layout : get_theme_mod('header_layout', '');
-$layout_header_title = isset($layout_header_title) ? $layout_header_title : get_theme_mod('layout_header_title', '');
-$alt = isset($alt) ? $alt : '';
+$header_layout = get_theme_mod('header_layout', 'default'); // 'default' は適当な初期値
+$layout_header_title = get_theme_mod('layout_header_title', ''); 
+$alt = '';
 
 $options = get_option('vslmd_options');
 global $woocommerce; 
