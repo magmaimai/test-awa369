@@ -1,5 +1,4 @@
 <?php
-echo '<!-- HEADER DEBUG: header_layout='.$header_layout.' layout_header_title='.$layout_header_title.' -->';
 /**
 * The header for our theme.
 *
@@ -7,9 +6,6 @@ echo '<!-- HEADER DEBUG: header_layout='.$header_layout.' layout_header_title='.
 *
 * @package andromeda
 */
-
-
-
 
 $options = get_option('vslmd_options');
 global $woocommerce; 
@@ -254,16 +250,6 @@ add_filter( 'body_class', function( $classes ) {
 } );
 
 ?> 
-<?php
-/**
- * 親テーマ用：簡易ヘッダー
- */
-
-$header_layout = get_theme_mod('header_layout', '');        // 管理画面の設定を取得
-$layout_header_title = get_theme_mod('layout_header_title', ''); // 管理画面の設定を取得
-$alt = get_theme_mod('header_image_alt', '');     
-
-?>
 
 <!-- ******************* Variables > Run End ******************* -->
 
@@ -299,7 +285,31 @@ $alt = get_theme_mod('header_image_alt', '');
 </head>
 
 <body <?php body_class('visualmodo-theme '.$menu_overlay_switch .' '. $layout_header_title_info .' '. $menu_overlay_switch_compatibility .' '. $nav_position .' '. $top_header_scheme_body .' '. $responsive_collapsing); ?>>
+	<?php
+	// header.php の <body> タグ直後くらいに追加
+	$header_layout = get_theme_mod('header_layout', ''); // カスタムヘッダーの設定を取得
+	$layout_header_title = get_theme_mod('layout_header_title', ''); // タイトル設定
+	$header_alt = get_theme_mod('header_alt_text', ''); // alt テキスト
+	?>
+	<header id="masthead" class="site-header <?php echo esc_attr($header_layout); ?>">
 
+    <?php if ( has_custom_logo() ) : ?>
+        <div class="site-logo">
+            <?php the_custom_logo(); ?>
+        </div>
+    <?php endif; ?>
+
+    <h1 class="site-title">
+        <?php echo !empty($layout_header_title) ? esc_html($layout_header_title) : get_bloginfo('name'); ?>
+    </h1>
+
+    <?php if ( get_header_image() ) : ?>
+        <div class="header-image">
+            <img src="<?php header_image(); ?>" alt="<?php echo esc_attr(!empty($header_alt) ? $header_alt : get_bloginfo('name')); ?>">
+        </div>
+    <?php endif; ?>
+
+</header>
 	<?php if($alert_message_switch == '1') { get_template_part('module-templates/alert-message'); } ?>
 	<?php if($side_navigation != '') { get_template_part('widget-templates/side-navigation'); } ?>
 
@@ -650,11 +660,5 @@ $alt = get_theme_mod('header_image_alt', '');
 				
 				<?php } ?> <!-- Jumbotron -->
 				<?php } ?> <!-- Header condition end -->
-				<?php if($nav_position == 'vertical-nav') { get_template_part('module-templates/vertical-header'); } ?> 
-				
-				
-				
-				
-				
-				<!-- Vertical Header -->
+				<?php if($nav_position == 'vertical-nav') { get_template_part('module-templates/vertical-header'); } ?> <!-- Vertical Header -->
 				
