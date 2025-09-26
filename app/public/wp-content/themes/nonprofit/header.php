@@ -9,6 +9,8 @@ echo '<!-- HEADER DEBUG: header_layout='.$header_layout.' layout_header_title='.
 */
 
 
+
+
 $options = get_option('vslmd_options');
 global $woocommerce; 
 
@@ -252,6 +254,16 @@ add_filter( 'body_class', function( $classes ) {
 } );
 
 ?> 
+<?php
+/**
+ * 親テーマ用：簡易ヘッダー
+ */
+
+$header_layout = get_theme_mod('header_layout', '');        // 管理画面の設定を取得
+$layout_header_title = get_theme_mod('layout_header_title', ''); // 管理画面の設定を取得
+$alt = get_theme_mod('header_image_alt', '');     
+
+?>
 
 <!-- ******************* Variables > Run End ******************* -->
 
@@ -526,7 +538,7 @@ add_filter( 'body_class', function( $classes ) {
 			
 			<!-- Jumbotron -->
 			
-	<?php if( $layout_header_title != '1' ) { ?>
+			<?php if( $layout_header_title != '1' ) { ?>
 				
 				<?php if( ($layout_header_title == '2' || $layout_header_title == '3') && ( !empty($title_editor) || !empty($caption_editor) ) ) { ?>
 					
@@ -638,12 +650,11 @@ add_filter( 'body_class', function( $classes ) {
 				
 				<?php } ?> <!-- Jumbotron -->
 				<?php } ?> <!-- Header condition end -->
-				<?php if($nav_position == 'vertical-nav') { get_template_part('module-templates/vertical-header'); } ?> <!-- Vertical Header -->
-
-
-
-
-
-
-
-
+				<?php if($nav_position == 'vertical-nav') { get_template_part('module-templates/vertical-header'); } ?> 
+				
+				
+				
+				
+				
+				<!-- Vertical Header -->
+				
