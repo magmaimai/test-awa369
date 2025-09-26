@@ -8,13 +8,6 @@ echo '<!-- HEADER DEBUG: header_layout='.$header_layout.' layout_header_title='.
 * @package andromeda
 */
 
-// ---------------------------
-// 安全対策：未定義変数の初期化（警告回避）
-// ---------------------------
-$header_layout = get_theme_mod('header_layout', '');
-$layout_header_title = get_theme_mod('layout_header_title', '');
-$alt = get_theme_mod('header_alt', '');
-
 
 $options = get_option('vslmd_options');
 global $woocommerce; 
@@ -533,7 +526,7 @@ add_filter( 'body_class', function( $classes ) {
 			
 			<!-- Jumbotron -->
 			
-			<?php if( $layout_header_title != '1' ) { ?>
+	<?php if( $layout_header_title != '1' ) { ?>
 				
 				<?php if( ($layout_header_title == '2' || $layout_header_title == '3') && ( !empty($title_editor) || !empty($caption_editor) ) ) { ?>
 					
@@ -646,4 +639,11 @@ add_filter( 'body_class', function( $classes ) {
 				<?php } ?> <!-- Jumbotron -->
 				<?php } ?> <!-- Header condition end -->
 				<?php if($nav_position == 'vertical-nav') { get_template_part('module-templates/vertical-header'); } ?> <!-- Vertical Header -->
-				
+
+
+
+
+
+
+
+

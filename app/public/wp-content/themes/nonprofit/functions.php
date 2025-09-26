@@ -75,3 +75,40 @@ require get_template_directory() . '/inc/editor.php';
 * Load Visualmodo Framework functions.
 */
 require get_template_directory() . '/vslmd/assets/theme-functions.php';
+
+// カスタマイザーに設定を追加
+function my_theme_customize_register( $wp_customize ) {
+    // ヘッダーのレイアウト設定
+    $wp_customize->add_section( 'my_theme_header_section', array(
+        'title'    => __( 'Header Settings', 'my_theme' ),
+        'priority' => 30,
+    ) );
+
+    // ヘッダーのレイアウト
+    $wp_customize->add_setting( 'header_layout', array(
+        'default'   => 'default',
+        'transport' => 'refresh',
+    ) );
+    $wp_customize->add_control( 'header_layout', array(
+        'label'    => __( 'Header Layout', 'my_theme' ),
+        'section'  => 'my_theme_header_section',
+        'type'     => 'radio',
+        'choices'  => array(
+            'default' => __( 'Default', 'my_theme' ),
+            'layout1' => __( 'Layout 1', 'my_theme' ),
+            'layout2' => __( 'Layout 2', 'my_theme' ),
+        ),
+    ) );
+
+    // ヘッダーのタイトル
+    $wp_customize->add_setting( 'layout_header_title', array(
+        'default'   => '',
+        'transport' => 'refresh',
+    ) );
+    $wp_customize->add_control( 'layout_header_title', array(
+        'label'    => __( 'Header Title', 'my_theme' ),
+        'section'  => 'my_theme_header_section',
+        'type'     => 'text',
+    ) );
+}
+add_action( 'customize_register', 'my_theme_customize_register' );

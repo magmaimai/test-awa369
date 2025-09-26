@@ -43,3 +43,8 @@
 [27-Sep-2025 01:02:39] NOTICE: exiting, bye-bye!
 [27-Sep-2025 01:02:42] NOTICE: fpm is running, pid 22294
 [27-Sep-2025 01:02:42] NOTICE: ready to handle connections
+[27-Sep-2025 01:32:53] NOTICE: Terminating ...
+[27-Sep-2025 01:32:53] NOTICE: Terminating ...
+[27-Sep-2025 01:32:53] NOTICE: exiting, bye-bye!
+[27-Sep-2025 01:32:55] NOTICE: fpm is running, pid 23143
+[27-Sep-2025 01:32:55] NOTICE: ready to handle connections
