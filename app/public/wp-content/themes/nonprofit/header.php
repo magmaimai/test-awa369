@@ -1,4 +1,5 @@
 <?php
+echo '<!-- HEADER DEBUG: header_layout='.$header_layout.' layout_header_title='.$layout_header_title.' -->';
 /**
 * The header for our theme.
 *
