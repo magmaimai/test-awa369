@@ -678,4 +678,6 @@ add_filter( 'body_class', function( $classes ) {
 				<?php } ?> <!-- Jumbotron -->
 				<?php } ?> <!-- Header condition end -->
 				<?php if($nav_position == 'vertical-nav') { get_template_part('module-templates/vertical-header'); } ?> <!-- Vertical Header -->
+				<?php
+
 				
