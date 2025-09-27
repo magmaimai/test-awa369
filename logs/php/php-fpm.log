@@ -204,3 +204,26 @@
 [27-Sep-2025 19:31:25] NOTICE: [pool www] child 51739 started
 [27-Sep-2025 19:32:32] NOTICE: Terminating ...
 [27-Sep-2025 19:32:32] NOTICE: exiting, bye-bye!
+[27-Sep-2025 21:04:30] NOTICE: fpm is running, pid 55771
+[27-Sep-2025 21:04:30] NOTICE: ready to handle connections
+[27-Sep-2025 21:05:29] WARNING: [pool www] child 55777 exited on signal 4 (SIGILL) after 59.153805 seconds from start
+[27-Sep-2025 21:05:29] NOTICE: [pool www] child 55864 started
+[27-Sep-2025 21:06:14] WARNING: [pool www] child 55778 exited on signal 4 (SIGILL) after 104.456695 seconds from start
+[27-Sep-2025 21:06:14] NOTICE: [pool www] child 55878 started
+[27-Sep-2025 21:06:29] WARNING: [pool www] child 55864 exited on signal 4 (SIGILL) after 60.209934 seconds from start
+[27-Sep-2025 21:06:29] NOTICE: [pool www] child 55882 started
+[27-Sep-2025 21:06:31] NOTICE: Terminating ...
+[27-Sep-2025 21:06:31] NOTICE: exiting, bye-bye!
+[27-Sep-2025 21:06:34] NOTICE: fpm is running, pid 55899
+[27-Sep-2025 21:06:34] NOTICE: ready to handle connections
+[27-Sep-2025 21:06:47] WARNING: [pool www] child 55906 exited on signal 4 (SIGILL) after 13.818955 seconds from start
+[27-Sep-2025 21:06:47] NOTICE: [pool www] child 55944 started
+[27-Sep-2025 21:07:51] NOTICE: Terminating ...
+[27-Sep-2025 21:07:51] NOTICE: exiting, bye-bye!
+[27-Sep-2025 21:07:54] NOTICE: fpm is running, pid 55993
+[27-Sep-2025 21:07:54] NOTICE: ready to handle connections
+[27-Sep-2025 21:25:17] NOTICE: Terminating ...
+[27-Sep-2025 21:25:17] NOTICE: Terminating ...
+[27-Sep-2025 21:25:17] NOTICE: exiting, bye-bye!
+[27-Sep-2025 21:25:19] NOTICE: fpm is running, pid 56334
+[27-Sep-2025 21:25:19] NOTICE: ready to handle connections

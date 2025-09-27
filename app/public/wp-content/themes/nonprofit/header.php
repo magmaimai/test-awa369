@@ -38,40 +38,57 @@ $page_404 = isset( $options['404_switch'] ) ? $options['404_switch'] : '';
 $brand_retina = '';
 
 if ($brand_scheme != '1') {
-	
+
 	if ($brand_scheme == '2' || $brand_scheme == '3') {
 
 		$brand_image = isset( $options['brand_image']['url'] ) ? $options['brand_image']['url'] : '';
 		$brand_light = isset( $options['brand_light']['url'] ) ? $options['brand_light']['url'] : '';
 		$brand_dark = isset( $options['brand_dark']['url'] ) ? $options['brand_dark']['url'] : '';
 		$brand_mobile = isset( $options['brand_mobile']['url'] ) ? $options['brand_mobile']['url'] : '';
-		
-	}
-	
-	elseif ($brand_scheme == '4' || $brand_scheme == '5') {
-		
+
+	} elseif ($brand_scheme == '4' || $brand_scheme == '5') {
+
 		$brand_retina = 'brand-retina';
 
 		$brand_image = isset( $options['brand_retina_image']['url'] ) ? $options['brand_retina_image']['url'] : '';
 		$brand_light = isset( $options['brand_retina_light']['url'] ) ? $options['brand_retina_light']['url'] : '';
 		$brand_dark = isset( $options['brand_retina_dark']['url'] ) ? $options['brand_retina_dark']['url'] : '';
 		$brand_mobile = isset( $options['brand_retina_mobile']['url'] ) ? $options['brand_retina_mobile']['url'] : '';
-		
+
 	}
-	
+
 	// Alt Text
-
-	$brand_image_id = isset( $options['brand_image']['id'] ) ? $options['brand_image']['id'] : '';
-	$brand_light_id = isset( $options['brand_light']['id'] ) ? $options['brand_light']['id'] : '';
-	$brand_dark_id = isset( $options['brand_dark']['id'] ) ? $options['brand_dark']['id'] : '';
+	$brand_image_id  = isset( $options['brand_image']['id'] ) ? $options['brand_image']['id'] : '';
+	$brand_light_id  = isset( $options['brand_light']['id'] ) ? $options['brand_light']['id'] : '';
+	$brand_dark_id   = isset( $options['brand_dark']['id'] ) ? $options['brand_dark']['id'] : '';
 	$brand_mobile_id = isset( $options['brand_mobile']['id'] ) ? $options['brand_mobile']['id'] : '';
-	
-	$brand_image_alt = $brand_image_id && $alt = get_post_meta($brand_image_id, '_wp_attachment_image_alt', true) ? 'alt="' . esc_attr($alt) . '"' : '';
-	$brand_light_alt = $brand_light_id && $alt = get_post_meta($brand_light_id, '_wp_attachment_image_alt', true) ? 'alt="' . esc_attr($alt) . '"' : '';
-	$brand_dark_alt = $brand_dark_id && $alt = get_post_meta($brand_dark_id, '_wp_attachment_image_alt', true) ? 'alt="' . esc_attr($alt) . '"' : '';
-	$brand_mobile_alt = $brand_mobile_id && $alt = get_post_meta($brand_mobile_id, '_wp_attachment_image_alt', true) ? 'alt="' . esc_attr($alt) . '"' : '';
 
+	$brand_image_alt  = '';
+	$brand_light_alt  = '';
+	$brand_dark_alt   = '';
+	$brand_mobile_alt = '';
+
+	if ( $brand_image_id ) {
+		$alt = get_post_meta( $brand_image_id, '_wp_attachment_image_alt', true );
+		if ( $alt ) $brand_image_alt = 'alt="' . esc_attr( $alt ) . '"';
+	}
+
+	if ( $brand_light_id ) {
+		$alt = get_post_meta( $brand_light_id, '_wp_attachment_image_alt', true );
+		if ( $alt ) $brand_light_alt = 'alt="' . esc_attr( $alt ) . '"';
+	}
+
+	if ( $brand_dark_id ) {
+		$alt = get_post_meta( $brand_dark_id, '_wp_attachment_image_alt', true );
+		if ( $alt ) $brand_dark_alt = 'alt="' . esc_attr( $alt ) . '"';
+	}
+
+	if ( $brand_mobile_id ) {
+		$alt = get_post_meta( $brand_mobile_id, '_wp_attachment_image_alt', true );
+		if ( $alt ) $brand_mobile_alt = 'alt="' . esc_attr( $alt ) . '"';
+	}
 }
+
 
 //Header Menu(s) Position
 
