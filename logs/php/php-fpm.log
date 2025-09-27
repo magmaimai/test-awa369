@@ -124,3 +124,83 @@
 [27-Sep-2025 17:57:56] NOTICE: ready to handle connections
 [27-Sep-2025 17:58:08] WARNING: [pool www] child 48962 exited on signal 4 (SIGILL) after 12.320752 seconds from start
 [27-Sep-2025 17:58:08] NOTICE: [pool www] child 48987 started
+[27-Sep-2025 18:05:13] NOTICE: Terminating ...
+[27-Sep-2025 18:05:13] NOTICE: Terminating ...
+[27-Sep-2025 18:05:13] NOTICE: exiting, bye-bye!
+[27-Sep-2025 18:05:17] NOTICE: fpm is running, pid 49240
+[27-Sep-2025 18:05:17] NOTICE: ready to handle connections
+[27-Sep-2025 18:27:13] NOTICE: Terminating ...
+[27-Sep-2025 18:27:13] NOTICE: Terminating ...
+[27-Sep-2025 18:27:13] NOTICE: exiting, bye-bye!
+[27-Sep-2025 18:27:15] NOTICE: fpm is running, pid 49758
+[27-Sep-2025 18:27:15] NOTICE: ready to handle connections
+[27-Sep-2025 18:46:51] WARNING: [pool www] child 49768 exited on signal 4 (SIGILL) after 1176.039753 seconds from start
+[27-Sep-2025 18:46:51] NOTICE: [pool www] child 50548 started
+[27-Sep-2025 18:47:19] WARNING: [pool www] child 49769 exited on signal 4 (SIGILL) after 1203.605215 seconds from start
+[27-Sep-2025 18:47:19] NOTICE: [pool www] child 50556 started
+[27-Sep-2025 18:48:19] WARNING: [pool www] child 50548 exited on signal 4 (SIGILL) after 87.588639 seconds from start
+[27-Sep-2025 18:48:19] NOTICE: [pool www] child 50575 started
+[27-Sep-2025 18:48:52] WARNING: [pool www] child 50556 exited on signal 4 (SIGILL) after 93.264433 seconds from start
+[27-Sep-2025 18:48:52] NOTICE: [pool www] child 50584 started
+[27-Sep-2025 18:50:19] WARNING: [pool www] child 50575 exited on signal 4 (SIGILL) after 119.992173 seconds from start
+[27-Sep-2025 18:50:19] NOTICE: [pool www] child 50607 started
+[27-Sep-2025 18:50:53] WARNING: [pool www] child 50584 exited on signal 4 (SIGILL) after 120.997937 seconds from start
+[27-Sep-2025 18:50:53] NOTICE: [pool www] child 50615 started
+[27-Sep-2025 18:52:19] WARNING: [pool www] child 50607 exited on signal 4 (SIGILL) after 120.006943 seconds from start
+[27-Sep-2025 18:52:19] NOTICE: [pool www] child 50642 started
+[27-Sep-2025 18:52:54] WARNING: [pool www] child 50615 exited on signal 4 (SIGILL) after 121.005438 seconds from start
+[27-Sep-2025 18:52:54] NOTICE: [pool www] child 50661 started
+[27-Sep-2025 18:54:19] WARNING: [pool www] child 50642 exited on signal 4 (SIGILL) after 120.002026 seconds from start
+[27-Sep-2025 18:54:19] NOTICE: [pool www] child 50687 started
+[27-Sep-2025 18:54:55] WARNING: [pool www] child 50661 exited on signal 4 (SIGILL) after 121.002156 seconds from start
+[27-Sep-2025 18:54:55] NOTICE: [pool www] child 50696 started
+[27-Sep-2025 18:55:45] WARNING: [pool www] child 50687 exited on signal 4 (SIGILL) after 86.106565 seconds from start
+[27-Sep-2025 18:55:45] NOTICE: [pool www] child 50712 started
+[27-Sep-2025 18:56:45] WARNING: [pool www] child 50696 exited on signal 4 (SIGILL) after 109.991541 seconds from start
+[27-Sep-2025 18:56:45] NOTICE: [pool www] child 50728 started
+[27-Sep-2025 18:56:56] WARNING: [pool www] child 50712 exited on signal 4 (SIGILL) after 71.129558 seconds from start
+[27-Sep-2025 18:56:56] NOTICE: [pool www] child 50734 started
+[27-Sep-2025 18:58:46] WARNING: [pool www] child 50728 exited on signal 4 (SIGILL) after 120.997541 seconds from start
+[27-Sep-2025 18:58:46] NOTICE: [pool www] child 50767 started
+[27-Sep-2025 18:58:57] WARNING: [pool www] child 50734 exited on signal 4 (SIGILL) after 120.999275 seconds from start
+[27-Sep-2025 18:58:57] NOTICE: [pool www] child 50770 started
+[27-Sep-2025 19:00:46] WARNING: [pool www] child 50767 exited on signal 4 (SIGILL) after 119.997375 seconds from start
+[27-Sep-2025 19:00:46] NOTICE: [pool www] child 50810 started
+[27-Sep-2025 19:00:58] WARNING: [pool www] child 50770 exited on signal 4 (SIGILL) after 121.000035 seconds from start
+[27-Sep-2025 19:00:58] NOTICE: [pool www] child 50813 started
+[27-Sep-2025 19:02:47] WARNING: [pool www] child 50810 exited on signal 4 (SIGILL) after 121.000193 seconds from start
+[27-Sep-2025 19:02:47] NOTICE: [pool www] child 50852 started
+[27-Sep-2025 19:02:59] WARNING: [pool www] child 50813 exited on signal 4 (SIGILL) after 120.997418 seconds from start
+[27-Sep-2025 19:02:59] NOTICE: [pool www] child 50855 started
+[27-Sep-2025 19:04:47] WARNING: [pool www] child 50852 exited on signal 4 (SIGILL) after 119.992403 seconds from start
+[27-Sep-2025 19:04:47] NOTICE: [pool www] child 50885 started
+[27-Sep-2025 19:05:00] WARNING: [pool www] child 50855 exited on signal 4 (SIGILL) after 120.992712 seconds from start
+[27-Sep-2025 19:05:00] NOTICE: [pool www] child 50889 started
+[27-Sep-2025 19:07:01] WARNING: [pool www] child 50885 exited on signal 4 (SIGILL) after 133.997784 seconds from start
+[27-Sep-2025 19:07:01] NOTICE: [pool www] child 50919 started
+[27-Sep-2025 19:09:02] WARNING: [pool www] child 50889 exited on signal 4 (SIGILL) after 241.991624 seconds from start
+[27-Sep-2025 19:09:02] NOTICE: [pool www] child 51027 started
+[27-Sep-2025 19:11:02] WARNING: [pool www] child 50919 exited on signal 4 (SIGILL) after 241.000275 seconds from start
+[27-Sep-2025 19:11:02] NOTICE: [pool www] child 51057 started
+[27-Sep-2025 19:13:03] WARNING: [pool www] child 51027 exited on signal 4 (SIGILL) after 240.997751 seconds from start
+[27-Sep-2025 19:13:03] NOTICE: [pool www] child 51096 started
+[27-Sep-2025 19:15:04] WARNING: [pool www] child 51057 exited on signal 4 (SIGILL) after 241.991010 seconds from start
+[27-Sep-2025 19:15:04] NOTICE: [pool www] child 51199 started
+[27-Sep-2025 19:17:05] WARNING: [pool www] child 51096 exited on signal 4 (SIGILL) after 242.407330 seconds from start
+[27-Sep-2025 19:17:05] NOTICE: [pool www] child 51264 started
+[27-Sep-2025 19:19:15] WARNING: [pool www] child 51199 exited on signal 4 (SIGILL) after 251.002599 seconds from start
+[27-Sep-2025 19:19:15] NOTICE: [pool www] child 51365 started
+[27-Sep-2025 19:21:16] WARNING: [pool www] child 51264 exited on signal 4 (SIGILL) after 250.581899 seconds from start
+[27-Sep-2025 19:21:16] NOTICE: [pool www] child 51459 started
+[27-Sep-2025 19:23:23] WARNING: [pool www] child 51365 exited on signal 4 (SIGILL) after 247.431923 seconds from start
+[27-Sep-2025 19:23:23] NOTICE: [pool www] child 51543 started
+[27-Sep-2025 19:25:23] WARNING: [pool www] child 51459 exited on signal 4 (SIGILL) after 246.999639 seconds from start
+[27-Sep-2025 19:25:23] NOTICE: [pool www] child 51595 started
+[27-Sep-2025 19:27:24] WARNING: [pool www] child 51543 exited on signal 4 (SIGILL) after 241.553807 seconds from start
+[27-Sep-2025 19:27:24] NOTICE: [pool www] child 51645 started
+[27-Sep-2025 19:29:25] WARNING: [pool www] child 51595 exited on signal 4 (SIGILL) after 242.010612 seconds from start
+[27-Sep-2025 19:29:25] NOTICE: [pool www] child 51705 started
+[27-Sep-2025 19:31:25] WARNING: [pool www] child 51645 exited on signal 4 (SIGILL) after 240.986300 seconds from start
+[27-Sep-2025 19:31:25] NOTICE: [pool www] child 51739 started
+[27-Sep-2025 19:32:32] NOTICE: Terminating ...
+[27-Sep-2025 19:32:32] NOTICE: exiting, bye-bye!
