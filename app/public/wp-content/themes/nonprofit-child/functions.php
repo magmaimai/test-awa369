@@ -1,5 +1,4 @@
 <?php
-
 /*-----------------------------------------------------------------------------------*/
 /*  Register style.css
 /*-----------------------------------------------------------------------------------*/
@@ -11,6 +10,20 @@ function theme_enqueue_styles() {
     wp_enqueue_style( 'child-theme-styles', get_stylesheet_directory_uri() . '/style.css', array(), $the_theme->get( 'Version' ) );
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*  Custom Logo
+/*-----------------------------------------------------------------------------------*/
+
+// ロゴを差し替える
+function my_custom_logo_setup() {
+    add_theme_support( 'custom-logo', array(
+        'height'      => 100,
+        'width'       => 300,
+        'flex-height' => true,
+        'flex-width'  => true,
+    ) );
+}
+add_action( 'after_setup_theme', 'my_custom_logo_setup', 11 );
 
 /*-----------------------------------------------------------------------------------*/
 /*  Custom Functions

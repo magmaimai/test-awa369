@@ -78,3 +78,42 @@
 [27-Sep-2025 12:02:07] NOTICE: exiting, bye-bye!
 [27-Sep-2025 12:02:10] NOTICE: fpm is running, pid 39455
 [27-Sep-2025 12:02:10] NOTICE: ready to handle connections
+[27-Sep-2025 17:35:39] WARNING: [pool www] child 39463 exited on signal 4 (SIGILL) after 20008.149633 seconds from start
+[27-Sep-2025 17:35:39] NOTICE: [pool www] child 48070 started
+[27-Sep-2025 17:35:44] WARNING: [pool www] child 39462 exited on signal 4 (SIGILL) after 20013.216955 seconds from start
+[27-Sep-2025 17:35:44] NOTICE: [pool www] child 48073 started
+[27-Sep-2025 17:35:49] WARNING: [pool www] child 48070 exited on signal 4 (SIGILL) after 10.713150 seconds from start
+[27-Sep-2025 17:35:49] NOTICE: [pool www] child 48075 started
+[27-Sep-2025 17:35:50] WARNING: [pool www] child 48073 exited on signal 4 (SIGILL) after 6.735077 seconds from start
+[27-Sep-2025 17:35:50] NOTICE: [pool www] child 48076 started
+[27-Sep-2025 17:35:51] WARNING: [pool www] child 48075 exited on signal 4 (SIGILL) after 1.898871 seconds from start
+[27-Sep-2025 17:35:51] NOTICE: [pool www] child 48078 started
+[27-Sep-2025 17:35:52] WARNING: [pool www] child 48076 exited on signal 4 (SIGILL) after 1.754009 seconds from start
+[27-Sep-2025 17:35:52] NOTICE: [pool www] child 48079 started
+[27-Sep-2025 17:35:53] WARNING: [pool www] child 48078 exited on signal 4 (SIGILL) after 2.055582 seconds from start
+[27-Sep-2025 17:35:53] NOTICE: [pool www] child 48080 started
+[27-Sep-2025 17:35:54] WARNING: [pool www] child 48079 exited on signal 4 (SIGILL) after 2.017236 seconds from start
+[27-Sep-2025 17:35:54] NOTICE: [pool www] child 48081 started
+[27-Sep-2025 17:35:57] WARNING: [pool www] child 48081 exited on signal 4 (SIGILL) after 2.498202 seconds from start
+[27-Sep-2025 17:35:57] NOTICE: [pool www] child 48082 started
+[27-Sep-2025 17:35:57] WARNING: [pool www] child 48082 exited on signal 4 (SIGILL) after 0.207493 seconds from start
+[27-Sep-2025 17:35:57] NOTICE: [pool www] child 48083 started
+[27-Sep-2025 17:35:57] WARNING: [pool www] child 48083 exited on signal 4 (SIGILL) after 0.360112 seconds from start
+[27-Sep-2025 17:35:57] NOTICE: [pool www] child 48084 started
+[27-Sep-2025 17:35:57] WARNING: [pool www] child 48084 exited on signal 4 (SIGILL) after 0.225361 seconds from start
+[27-Sep-2025 17:35:57] NOTICE: [pool www] child 48085 started
+[27-Sep-2025 17:35:58] WARNING: [pool www] child 48085 exited on signal 4 (SIGILL) after 0.196766 seconds from start
+[27-Sep-2025 17:35:58] NOTICE: [pool www] child 48086 started
+[27-Sep-2025 17:35:58] WARNING: [pool www] child 48080 exited on signal 4 (SIGILL) after 4.676674 seconds from start
+[27-Sep-2025 17:35:58] NOTICE: [pool www] child 48087 started
+[27-Sep-2025 17:35:58] WARNING: [pool www] child 48087 exited on signal 4 (SIGILL) after 0.147590 seconds from start
+[27-Sep-2025 17:35:58] NOTICE: [pool www] child 48088 started
+[27-Sep-2025 17:36:56] NOTICE: Terminating ...
+[27-Sep-2025 17:36:56] NOTICE: Terminating ...
+[27-Sep-2025 17:36:56] NOTICE: exiting, bye-bye!
+[27-Sep-2025 17:36:58] NOTICE: fpm is running, pid 48220
+[27-Sep-2025 17:36:58] NOTICE: ready to handle connections
+[27-Sep-2025 17:37:45] WARNING: [pool www] child 48226 exited on signal 4 (SIGILL) after 46.827495 seconds from start
+[27-Sep-2025 17:37:45] NOTICE: [pool www] child 48254 started
+[27-Sep-2025 17:37:56] WARNING: [pool www] child 48227 exited on signal 4 (SIGILL) after 57.682805 seconds from start
+[27-Sep-2025 17:37:56] NOTICE: [pool www] child 48257 started
