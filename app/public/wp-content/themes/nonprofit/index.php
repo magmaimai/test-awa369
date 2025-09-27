@@ -12,6 +12,8 @@
  */
 
 get_header(); ?>
+<?php if(function_exists('putRevSlider')) { putRevSlider('Nonprofit-slider'); } ?>
+
 
     <div class="wrapper" id="wrapper-index">
         
