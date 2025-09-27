@@ -117,3 +117,10 @@
 [27-Sep-2025 17:37:45] NOTICE: [pool www] child 48254 started
 [27-Sep-2025 17:37:56] WARNING: [pool www] child 48227 exited on signal 4 (SIGILL) after 57.682805 seconds from start
 [27-Sep-2025 17:37:56] NOTICE: [pool www] child 48257 started
+[27-Sep-2025 17:57:52] NOTICE: Terminating ...
+[27-Sep-2025 17:57:52] NOTICE: Terminating ...
+[27-Sep-2025 17:57:52] NOTICE: exiting, bye-bye!
+[27-Sep-2025 17:57:56] NOTICE: fpm is running, pid 48955
+[27-Sep-2025 17:57:56] NOTICE: ready to handle connections
+[27-Sep-2025 17:58:08] WARNING: [pool www] child 48962 exited on signal 4 (SIGILL) after 12.320752 seconds from start
+[27-Sep-2025 17:58:08] NOTICE: [pool www] child 48987 started
