@@ -603,30 +603,30 @@ add_filter( 'body_class', function( $classes ) {
 						</div>  
 					</section><!-- Header Presentation end -->
 					
-				<?php } else if( $layout_header_title == '4' ) {
-					
-					if ( $slider_rev_header && class_exists( 'RevSlider' ) ) { ?>
-						
-						<section class="hp-slider-revolution">
-							<?php putRevSlider($slider_rev_header) ?>
-						</section><!-- Slider end -->
-						
-					<?php } else { ?>
-						
-						<div class="container">
-							
-							<div class="row" style="padding: 100px 0;">
-								<div class="alert alert-warning alert-dismissible" role="alert">
-									<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-									<strong><?php _e( 'No Slider Found!', 'vslmd' ); ?></strong> <?php _e( 'Please go to your page editor area and apply your slider show build with revolution slider on Page Options > Layout > Slider Revolution.', 'vslmd' ); ?>
+					<?php
+					} else if( $layout_header_title == '4' ) {
+
+						if ( ! empty( $slider_rev_header ) && class_exists( 'RevSlider' ) ) : ?>
+							<section class="hp-slider-revolution">
+								<?php putRevSlider( $slider_rev_header ); ?>
+							</section>
+						<?php else : ?>
+							<div class="container">
+								<div class="row" style="padding:100px 0;">
+									<div class="alert alert-warning alert-dismissible" role="alert">
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+										<strong><?php _e( 'No Slider Found!', 'vslmd' ); ?></strong>
+										<?php _e( 'Please go to your page editor area and apply your slider show build with Revolution Slider on Page Options > Layout > Slider Revolution.', 'vslmd' ); ?>
+									</div>
 								</div>
 							</div>
-							
-						</div><!-- Alert end -->
-						
-					<?php } ?>
-					
-				<?php } else if( $layout_header_title == '5' ) { ?>
+						<?php endif;
+
+					} else if( $layout_header_title == '5' ) {
+						// $layout_header_title が 5 の場合の処理
+					?>
 					
 					<section class="header-presentation simple-slider">
 						<div id="galleryCarousel" class="carousel slide" data-ride="carousel">
